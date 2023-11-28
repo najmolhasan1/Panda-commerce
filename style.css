@@ -2,6 +2,8 @@
 :root{
     --primary-color:#C97C5D;
     --secondary-color:#B36A5E;
+    --third-color:#EED7C5;
+    --fourth-color:#EEE2DF;
     --text-color:#000000;
     --padding:0.5rem;
     --transition:all 0.3s ease;
