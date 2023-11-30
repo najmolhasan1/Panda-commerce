@@ -17,10 +17,55 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
+    font-family: helvetica neue;
+}
+.flex_display_around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
 }
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
 /* reset and common code here */
+nav{
+    position: sticky;
+    top: 0 px;
+    left: 0px;
+    font-size: 1.8rem;
+    z-index: 1000;
+}
+.upper_nav{
+    background-color: var(--primary-color);
+    height: 10vh;
+    padding: .5rem 1rem;
 
+}
+.Profile_picture{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: .1rem solid white;
+    transition: var(--transition);
+}
+.nav_link{
+    color: var(--text-color);
+}
+.upper_nav .nav_link:hover{
+    text-decoration: overline;
+    color: white;
+}
+.nav_lower{
+    height: 8vh;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 9rem;
+    align-items: center;
+    opacity: ;
+
+}
