@@ -1,0 +1,12 @@
+@media (max-width:600px) {
+
+.flex_display_around{
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+.upper_nav{
+    height: 40vh;
+}
+    
+}
